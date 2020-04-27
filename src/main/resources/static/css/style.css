@@ -1,0 +1,23 @@
+
+#nav-left{
+  left: 0;
+  height: 100%;
+}
+
+nav ul li{
+  margin-bottom: 10px;
+}
+
+/*nav ul{*/
+/*    position: absolute;*/
+/*}*/
+
+nav ul div ul{
+  margin-left: 40px;
+  border-left: solid 5px #6c757d;
+}
+
+nav ul div ul li{
+  margin-left: 10px;
+  /*border-bottom: solid 2px #6c757d;*/
+}

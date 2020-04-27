@@ -1,0 +1,32 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 98110sunkai
+    url: jdbc:mysql://127.0.0.1:3306/wechatsell?characterEncoding=utf-8&useSSL=false
+  jpa:
+    show-sql: true
+#  freemarker:
+#    settings:
+#      classic_compatible: true
+
+
+
+#  将为null的值不返回
+#  jackson:
+#    default-property-inclusion: non_null
+
+#    配置redis
+#  redis:
+#    host: 127.0.0.1
+#    port: 6379
+#    password: 123456
+server:
+  servlet:
+    context-path: /sell
+
+#    生产环境不需要打印sql语句
+logging:
+  level:
+    com.kangjian.wechatsell.dataobject.mapper: trace
+
